@@ -1,0 +1,268 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	
+	width: 100%;
+	background: lightgrey;
+	font: 14px/20px Arial;
+	color: #555;
+	margin: 0;
+	
+	background-color: #C0C0C0;
+	
+	
+}
+
+h1{
+	
+	font-size: 170%;
+	line-height: 10%;
+	padding: 5% 0;
+	position: center;
+	
+}
+h2{
+	text-decoration: underline;
+	line-height: 10%;
+	padding-left: 1%;
+	
+}
+h3 {
+	line-height:10%;
+	padding: 2% 0;
+	
+}
+p{
+	
+	padding: 1%;
+}
+img{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+header{
+	background: white;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	Z-index: 100;
+	opacity: 0.90;
+	 background: url('flags.png') repeat-x 50%;
+}
+
+#logo{
+	margin: 10px;
+	margin-left: 50px;
+	float: left;
+	width: 60px;
+	height: 80px;
+	margin-top: 21px;
+
+}
+nav {
+	
+	float: right;
+	padding: 35px 20px 20px 0;
+}
+nav ul li {
+	color: red;
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-top: 11px;
+}
+.current:hover {
+	color: blue;
+	
+	
+}
+
+
+.current,a:hover {
+	color: #9400D3;
+	background-color:  #1E90FF;
+	
+	
+}
+
+li{
+	
+	color: red;
+}
+.slides{
+	position: fixed;
+	width: 100%;
+	position: center;
+	 
+	 background: url('flags.png') repeat-x 50%;
+	 margin-top: 59px;
+}
+
+
+h4 {
+	line-height:110%;
+	padding: 1.5% 0;
+	
+}
+
+section{
+	width: 30%;
+	float: left;
+	margin: 10% .5%;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 5px;
+	 border-radius: 1em;
+	 margin-left: 18px;
+     position: relative;
+	position: center;
+	 padding-left: 10px;
+	  background-color: grey;    /* Medium blue */
+}
+
+
+.border ./action_page.php {
+	width: 100%;
+	background-color: rgb(24,24,24); /* Old browsers will read this */
+    background-color: rgba(24,24,24,0.8); /* New browsers will read this */
+	margin-top: 100px;
+	
+} 
+
+label, input{
+	font-size: 15px;
+	
+}
+#article {
+	
+	width: 38%;
+	
+	
+	text-align: center;
+
+	margin-bottom: 2px;
+	 border-radius: 1em;
+     position: relative;
+	 padding-left: 1px;
+	
+	  margin-left: 65px;
+	 
+	
+}
+.article {
+	
+	width: 38%;
+	
+	
+	text-align: center;
+
+	margin-bottom: 2px;
+	 border-radius: 1em;
+     position: relative;
+	 padding-left: 1px;
+	
+	  margin-left: 65px;
+	 
+	
+}
+input{
+		background-color:#2F4F4F;
+		color: #00FA9A;
+		transform: uppercase;
+		font-weight: bold;
+		width: 200px;
+	font-weight: Arial Narrow;
+
+}
+ #sider{
+	 
+	 width: 47%;
+	margin-top: 140px;
+	
+	 
+	 
+ } .sider{
+	 
+	 width: 47%;
+	margin-top: 140px;
+	
+	 
+	 
+ }
+ 
+ #sider1{
+	 	width: 47%;
+	float: left;
+
+	text-align: center;
+	
+	
+	 border-radius: 1em;
+    
+	 padding-top: 10px;
+	  background-color: grey;    /* Medium blue */
+
+     position: absolute;
+	 padding: 0px 0px;
+	
+	 
+	 
+ }
+.siderss{
+	 
+	 width: 90%;
+	
+	
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 2px;
+	
+     position: absolute;
+	
+	 
+ }
+ 
+
+#aside {
+	
+	width: 19.2%;
+	
+	
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 2px;
+	 border-radius: 0em;
+     position: relative;
+	 padding: 1px;
+	 border-radius: 1em;
+	  margin-left: 0px;
+	 
+	
+}
+
+
+body h1, body h3, body b, body h5{
+	color: black;
+	
+}
+ button {
+   padding: .3em; 
+    background: green;
+    color: white;
+    border: 3;
+  }
+ fieldset {
+   	border: 1; 
+	
+  }

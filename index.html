@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TIC creator</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width, initial-scale.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript"  href="example.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+ 
+    <script type="text/javascript" src="html2canvas-master/dist/html2canvas.js"></script>
+ 
+
+</head>
+
+
+
+
+<body>
+<header>
+
+<a href="index.html" id="logo"><img src="logo.png"></a>
+<nav>
+<a href="#" id="menuicon"></a>
+<ul>
+<li><a href="Homme.html" class="current">home</a></li>
+<li><a href="services.html">SERVICES</a></li>
+<li><a href="terms and policy.html">Terms and Privacy.</a></li>
+
+</ul>
+
+</nav>
+</header>
+<div class="slides" >
+
+<nav style="width:100%; height:20px; color: blue;">
+<ul>
+<li><a href="search infor.html" class="current">Your Private Infor</a></li>
+<li><a href="birth certificate.html">Create Your BC</a></li>
+<li><a href="index.html">Create Your TIC</a></li>
+<li><a href="Example TIC-BC.html">Sample of BC/TIC</a></li>
+
+
+</ul>
+</nav>
+</div>
+
+
+<form action="/action_page.php">
+<div class = "target">
+
+ <fieldset>  
+
+<section style="">
+          
+<input type = "text" name = "Address" id = "primaryaddress" value="AMBAZONIA" readonly="readonly" maxlength="9" style="background: transparent; display: none; border: none; font-size:1xp;" required><br/>  
+      
+<input type = "text" name = "Zip code" id = "primaryzip" value="BC REGISTERING FORMAT" readonly="readonly" style="background: transparent;display: none; color: black; border: none; font-size:1xp;" pattern = "[0-9]{6}" required><br/>
+
+
+
+
+
+
+ <label for="Surname"><b>Surname:</b></label>
+	 <input type="text" placeholder="Enter Surname" name="Surname" id="surname" maxlength="12" required><br><br>
+
+ <label for="email"><b>Given name:</b></label>
+    <input type="text" placeholder="Enter First name" name="firstname" id="firstname" maxlength="12" required><br><br>
+	
+   
+	  <label for="Hight (cm)"><b>Hight (cm):</b> </label>
+     <input type="text" placeholder="Enter Hight (cm)" name="height" id="height" maxlength="3" required><br><br>
+	
+	
+	
+	 <label for="Gender"> <b>Gender/Sex:</b></label>
+          <input type="text" placeholder="Enter Gender" name="Gender" id="gender"  maxlength="6" required><br><br>
+    
+	
+	 <label for="Full Name"><b>Full Name:</b></label> 
+    <input type="text" placeholder="Enter Full Name" name="Full Name" id="fullname" maxlength="25" required><br><br>
+	 <label for="email"><b>Email:</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email"maxlength="23" required><br><br>
+	
+	 <label for="Date of Birth"><b>Date of Birth:</b></label>
+    <input type="text" placeholder="Enter Date of Birth" name="Date of Birth" id="dateofbirth" maxlength="10" required><br><br>
+	<label for="Status"><b>Marital status:</b></label>
+   <input type="text" placeholder="Enter marital status" name="status" id="status"  maxlength="15" required><br><br>
+
+	
+	
+	 <label for="Phone"><b>Phone/AM code:</b></label>
+	 <input type="text" placeholder="Enter Phone" name="Phone" id="phone" maxlength="12" required><br><br>
+	 
+	  <label for="Father's Name"><b>Father's Name:</b></label>
+    <input type="text" placeholder="Enter Father's Name" name="Father's Name" id="fathersname" maxlength="22" required><br><br>
+	 <label for="mother's Name"><b>Mother's Name:</b></label>
+    <input type="text" placeholder="Enter mother's Name" name="mother's Name" id="mothersname" maxlength="22" required><br><br><br>
+	  
+	 
+
+    
+</section>
+<section >
+
+
+
+
+
+   <h3>Registering form</h3>
+    <h5>Please fill in this form to make your ID/BC.</h5><br>
+	
+	<label for="county code"><b>county local code:</b></label>
+    <input type="text" placeholder="Enter county code" name="Occupation" id="countrycode" maxlength="16" required><br><br>
+
+ <label for="Occupation"><b>Occupation:</b></label>
+    <input type="text" placeholder="Enter Occupation" name="Occupation" id="occupation" maxlength="15" required><br><br>
+	
+  <label for="Place of Birth"><b>Culture:</b></label>
+    <input type="text" placeholder="Enter culture" name="Place of Birth" id="placeofbirth" maxlength="15" required><br><br>
+	 <label for="Language"><b>Official language:</b></label>
+    <input type="text" placeholder="Enter Language" name="Language" id="language" maxlength="9" required><br><br>
+	 <label for="Current Town"><b>Current city/Town:</b></label>
+    <input type="text" placeholder="Enter Current Town" name="currenttown" id="currenttown" maxlength="15" required><br><br>
+	 <label for="Issued Date"><b>Issued Date:</b></label>
+    <input type="text" placeholder="Enter Date of today" name="Issued Date" id="issueddate" maxlength="10" required><br><br>
+	 <label for="Dilate"><b>Dilate:</b></label>
+    <input type="text" placeholder="Enter your Dilate" name="dilate" id="dilate" maxlength="12" required><br><br>
+	
+	<label for="Signature"><b>Signature:</b></label>
+    <input type="text" placeholder="Enter your Dilate" name="Signature" id="signature" maxlength="3"  style=" width: 140px; height: 100px;font-size: 2em; border: none;color: none;" required><br><br>
+	 <br><br>  <br>
+</section>
+
+
+<section>
+
+
+
+
+
+   
+  <br><br> 
+			<h5>Birth certificate (PDF) </h5>
+	 	  		<img src="APPPROVE PICTURE.png" style="width: 300px; height: 410px;" style="color: green;" placeholder="Enter BC PDF" value="" type="text"  name="email" required><br>
+				
+
+  
+ 
+	<p>Birth certificate (PDF) </p>
+
+
+</section>
+
+</div>
+
+</fieldset> 
+
+ </div>
+
+ <br>
+ <br>
+
+<center>
+<p><input type="checkbox" id="same" name="same" onchange= "addressFunction()" style="background: transparent; width: 50px;border:none;" />   by clicking this box means you have accepted our terms and policy</p>
+
+	 <a href="index.html" style="color: white; background-color: green; font-size: 1.4em; padding: 3px;"> RESET FORM</a>
+
+	<button type="submit" class="CONFIRMbtn"id="flip" style="color: white; background: green;">CONTINUE HERE...</button>
+	
+	<button type="submit" class="CONFIRMbtn" id = "hide">CONFIRM</button>
+	
+ </center>
+ <br>
+
+
+ <form>
+ <div id="panel">
+<body>
+    <div class="container" id='container' >
+ 
+  <br> <br> <br> 
+<fieldset>    
+
+               
+<div class="secondary">  
+	        
+   
+<input type = "text" name = "Address" id = "secondaryaddress"  style="background: hidden; background: transparent; display: none;border: none;  color: black;" required><br/>              
+         
+<input type = "text" name = "Zip code" id = "secondaryzip"  style="background: transparent;border: none; display: none;  color: black;" pattern = "[0-9]{6}" required><br/>  
+				  	  
+			
+
+ <div class="sidebar" >
+
+
+ 
+
+<main class="grid">
+  <div class="box5"><input type="text" placeholder="Enter First name" name="email" id="2firstname" style="background: transparent;border: none;;width: 140px;color:  #7FFF00;" required><br></div>
+
+  <div class="box1" ><input type="text" placeholder="Enter Surname" name="Surname" id="2surname" style="background: transparent;border: none;;width: 140px;color:  00FF00;" required><br></div>
+  
+  <div class="box2"><input type="text" placeholder="Enter Hight (cm)" name="height" id="2height" style="background: transparent;position: center; border: none;;width: 90px;color: 00FF00;" maxlength="3" required><br></div>
+  
+  <div class="box3"><input type="text" placeholder="Enter Gender" name="Gender" id="2gender" style="background: white; padding-left: 45px; border: none;font-size: .7em;width: 150px;color: 00FF00;" required><br></div>
+ 
+ <div class="box4"><input type="text" placeholder="Enter Date of Birth" name="Date of Birth" id="2dateofbirth" style="background: white;padding-left: 40px;font-size: .7em;border: none;;width: 120px;color: 00FF00;" required><br></div>
+	
+	 <div class="box6"><input type="text" placeholder="Enter marital status" name="status" id="2status" style="background: white;border: none;padding-left: 50px;width: 160px;color: 00FF00;" required><br></div>
+	
+	 <div class="box7"><input type="text" placeholder="Enter Current Town" name="currenttown" id="2currenttown" style="background: transparent;border: none;;width: 140px;color: #7FFF00;" required><br></div>
+  
+
+  
+  <center style="margin-left: 29px; margin-top: 152px; border-radius: 1em; height: 157px; border: solid 1px black; position: absolute;" >
+  
+    <img src="black prifile.jpg" style="min-height:157px;min-width:100px;max-height:157px; max-width: 147px; border-radius: 1.5em;"  id="preview"/><br><br>
+    <input type="file" id="image" style="display: none;"/>
+    <!--<input type="hidden" style="display: none" value="0" name="remove" id="remove">-->
+
+	<a href="javascript:changeProfile()"style="color: white; background-color: green; font-size: .9em; padding: 4px; width: 70px; margin-left: 50px; margin-top: 100px;"> Passport-Photo</a>
+	 
+	
+	<input type='button' style="position:absolute; margin-left: 100px; margin-top: 10px;" id='but_screenshot' value='copy screen' onclick='screenshot();'>
+</center>
+   </main>
+     
+   
+ 
+ 
+
+<main class="second"> 
+ 
+   <div class="box8"><input type="text" placeholder="Enter county code" name="Occupation" id="2countrycode" style="background: transparent;border: none; ;width: 120px;color:  	#7FFF00;" required></div>
+	
+   
+  
+  
+  <div class="box9"><input type="text" placeholder="Enter Full Name" name="Full Name" id="2fullname" style="background: transparent;border: none; ;width: 170px;color: #7FFF00;" required></div>
+
+  <div class="box10"><input type="text" placeholder="Enter Occupation" name="Occupation" id="2occupation" style="background: transparent;border: none;;width: 140px;color: 	#7FFF00;" required></div>
+
+  <div class="box11"><input type="text" placeholder="Enter signature" name="email" id="2signature" style="background: transparent;border: none;;width: 80px;height: 50px; font-size: 1.5em; color:  #7FFF00;" required ></div>
+  
+  <div class="box12"><input type="text" placeholder="Enter Language" name="email" id="2language" style="background: transparent;border: none;;width: 90px;color:  #7FFF00;" required></div>
+ 
+  <div class="box13"><input type="text" placeholder="Enter Email" name="email" id="2email" style="background: transparent;border: none;;width: 210px;color: #7FFF00;" required></div>
+  <div class="box14"><input type="text" placeholder="Enter Father's Name" name="Father's Name" id="2fathersname" style="background: transparent;border: none;;width: 150px;color: #7FFF00;" required></div>
+  <div class="box15"><input type="text" placeholder="Enter Issued Date" name="issued date" id="2issueddate" style="background: transparent;border: none;;width: 140px;color: #7FFF00;" required></div>
+  <div class="box16"><input type="text" placeholder="Enter mother's Name" name="mother's Name" id="2mothersname" style="background: transparent;border: none;;width: 150px;color: #7FFF00;" required></div>
+  <div class="box17"><input type="text"  value="01/09/20--" readonly="readonly" style="background: transparent;border: none;;width: 160px;color: #7FFF00;" required  ></div>
+  <div class="box18"><input type="text" placeholder="Enter Place of Birth" name="Place of Birth" id="2placeofbirth" style="background: transparent;border: none;width: 140px;color: #7FFF00;" required></div>
+  <div class="box19"><input type="text" placeholder="Enter Phone" name="Phone" id="2phone" style="background: transparent;border: none;;width: 140px;color: #00FFFF;" required><br></div>
+  
+  <div class="box20"><input type="text" placeholder="Enter Your Dilate" name="dilate" id="2dilate"  style="background: transparent;border: none;;width: 99px;color: #7FFF00;" required></div>
+	
+  	
+ 
+   
+
+  </div></br></br>
+ <div class="sidebar1">
+   
+  </div> 
+ <br>
+
+  
+  <a href="index.html" style="color: white; background-color: green; font-size: 1.4em; padding: 3px;"> RESET FORM</a>
+
+
+  
+</div>	
+	
+</fieldset> 
+   <br>
+  </div>
+</div>
+ </div>
+
+  </form>	
+ 
+  </body>
+  
+</html>
+
+
+<script> 
+function addressFunction() 
+{ 
+  if (document.getElementById('same')) 
+   
+  { 
+    document.getElementById('secondaryaddress').value=document. 
+             getElementById('primaryaddress').value; 
+    document.getElementById('secondaryzip').value=document. 
+             getElementById('primaryzip').value 
+			 
+	document.getElementById('2firstname').value=document. 
+             getElementById('firstname').value; 
+    document.getElementById('2surname').value=document. 
+             getElementById('surname').value 
+			 
+	document.getElementById('2fullname').value=document. 
+             getElementById('fullname').value; 
+    document.getElementById('2email').value=document. 
+             getElementById('email').value
+			 
+	 document.getElementById('2dateofbirth').value=document. 
+             getElementById('dateofbirth').value; 
+    document.getElementById('2phone').value=document. 
+             getElementById('phone').value
+			 
+	 document.getElementById('2fathersname').value=document. 
+             getElementById('fathersname').value; 
+    document.getElementById('2mothersname').value=document. 
+             getElementById('mothersname').value
+			 
+	 document.getElementById('2height').value=document. 
+             getElementById('height').value; 
+    document.getElementById('2countrycode').value=document. 
+             getElementById('countrycode').value
+			 
+    document.getElementById('2occupation').value=document. 
+             getElementById('occupation').value; 
+    document.getElementById('2placeofbirth').value=document. 
+             getElementById('placeofbirth').value
+			 
+	document.getElementById('2dilate').value=document. 
+             getElementById('dilate').value; 
+    document.getElementById('2currenttown').value=document. 
+             getElementById('currenttown').value
+			 
+	document.getElementById('2issueddate').value=document. 
+             getElementById('issueddate').value; 
+    document.getElementById('2gender').value=document. 
+             getElementById('gender').value
+			 
+	document.getElementById('2status').value=document. 
+             getElementById('status').value; 
+    document.getElementById('2language').value=document. 
+             getElementById('language').value
+					 
+	document.getElementById('2dilate').value=document. 
+             getElementById('dilate').value; 
+    document.getElementById('2signature').value=document. 
+             getElementById('signature').value
+			 
+	document.getElementById('secondaryaddress').value=document. 
+             getElementById('primaryaddress').value; 
+    document.getElementById('secondaryzip').value=document. 
+             getElementById('primaryzip').value
+			 
+   		 
+  } 
+      
+  else
+  { 
+    document.getElementById('secondaryaddress').value=""; 
+    document.getElementById('secondaryzip').value=""; 
+	
+	document.getElementById('2firstname').value=""; 
+    document.getElementById('2surname').value=""; 
+	
+	document.getElementById('2fullname').value=""; 
+    document.getElementById('2email').value=""; 
+	
+	document.getElementById('2dateofbirth').value=""; 
+    document.getElementById('2phone').value=""; 
+	
+	document.getElementById('2fathersname').value=""; 
+    document.getElementById('2mothersname').value=""; 
+	
+	document.getElementById('2height').value=""; 
+    document.getElementById('2countrycode').value=""; 
+	
+	document.getElementById('2occupation').value=""; 
+    document.getElementById('2placeofbirth').value=""; 
+	
+	document.getElementById('2dilate').value=""; 
+    document.getElementById('2currenttown').value=""; 
+	
+	document.getElementById('2issueddate').value=""; 
+    document.getElementById('2gender').value=""; 
+	
+	document.getElementById('2status').value=""; 
+    document.getElementById('2dilate').value=""; 
+	
+	document.getElementById('2signature').value=""; 
+    document.getElementById('secondary').value=""; 
+	
+	document.getElementById('secondaryaddress').value=""; 
+    document.getElementById('secondaryzip').value=""; 
+	
+	
+  } 
+} 
+</script> 
+
+
+
+
+ <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
+		
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+      </script>
+		
+      <script type = "text/javascript" language = "javascript">
+   
+         $(document).ready(function() {
+
+            $("#hide").click(function(){
+               $(".target").hide( "slide", { direction: "up"  }, 2000 );
+            });
+
+            $("#show").click(function(){
+               $(".target").show( "slide", {direction: "down" }, 2000 );
+            });
+				
+         });
+			
+      </script>
+  <script type = "text/javascript" language = "javascript">
+   
+         $(document).ready(function() {
+
+            $("#hide").click(function(){
+               $(".target1").hide( "slide", { direction: "up"  }, 2000 );
+            });
+
+            $("#show").click(function(){
+               $(".target1").show( "slide", {direction: "down" }, 2000 );
+            });
+				
+         });
+			
+      </script>
+ 
+<script>
+document.querySelector('#printBtn').addEventListener('click', function(){
+console.log('print button is clicked');
+window.print();
+}, false);
+</script>
+
+ 
+ 
+ <script>
+    function changeProfile() {
+        $('#image').click();
+    }
+    $('#image').change(function () {
+        var imgPath = this.value;
+        var ext = imgPath.substring(imgPath.lastIndexOf('.') + 1).toLowerCase();
+        if (ext == "gif" || ext == "png" || ext == "jpg" || ext == "jpeg")
+            readURL(this);
+        else
+            alert("Please select image file (jpg, jpeg, png).")
+    });
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.readAsDataURL(input.files[0]);
+            reader.onload = function (e) {
+                $('#preview').attr('src', e.target.result);
+//              $("#remove").val(0);
+            };
+        }
+    }
+    function removeImage() {
+        $('#preview').attr('src', 'noimage.jpg');
+//      $("#remove").val(1);
+    }
+</script>
+
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+
+ 
+ 
+ 
+ 
+ <!-- Script -->
+        <script type='text/javascript'>
+            function screenshot(){
+                html2canvas(document.getElementById("container")).then(function(canvas) {
+           
+                    document.body.appendChild(canvas);
+                });
+            }
+        </script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+ 
+</body> 
+</html> 
+
+
+
+
+<style>
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main,
+.sidebar,.sidebar {
+  border: 3px solid black;
+  padding: 1px;
+  background-color: #fff;
+}
+
+
+.sidebar {
+  width: 27.3%;
+  height: 50vh;
+}
+.sidebar1 {
+  width: 27.5%;
+  height: 50vh;
+}
+.sidebar {
+border-collapse: separate;
+border-spacing: 1px;
+-webkit-box-shadow: 0 10px 6px -6px #222;
+-moz-box-shadow: 0 10px 6px -6px #222;
+box-shadow: 0 10px 6px -6px #222;
+padding: 1em;
+color: white;
+background-position: center;
+background-type: cover;
+background: rgb(120,120,120);
+ border: 2px solid black;
+  padding: 2px;
+  padding-right: 200px;
+  background: url('front1.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+
+
+border-radius: 5px;
+margin: auto;
+}
+
+.sidebar1 {
+border-collapse: separate;
+border-spacing: 1px;
+-webkit-box-shadow: 0 10px 6px -6px #222;
+-moz-box-shadow: 0 10px 6px -6px #222;
+box-shadow: 0 10px 6px -6px #222;
+padding: 1em;
+color: white;
+background-position: center;
+background-type: cover;
+background: rgb(120,120,120);
+ border: 2px solid black;
+  padding: 1px;
+  padding-right: 200px;
+  background: url('back2.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+
+
+border-radius: 5px;
+margin: auto;
+}
+
+input{
+position: center;
+}
+</style>
+
+
+
+<style>
+  .grid{
+	  
+	  position: relative;
+	  width: 0;
+	  height: 0;
+	  }
+	  
+	  .grid {
+      display: grid;
+ 
+	  grid-template-columns: repeat(auto-fit, 100px);
+   
+      grid-gap: 5px;
+      }
+	  
+	   .box1 {
+    color: white;
+    font-size: 2vw;
+    padding: 0;
+	position:absolute;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 210px;
+		margin-top: 130px;
+    } 
+	.box2 {
+    color: white;
+    font-size: 2vw;
+    padding: 0;
+	position:absolute;
+	position: flex;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 380px;
+		margin-top: 130px;
+    }
+	
+	.box3 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;
+	position: flex;
+    padding: 0;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 180px;
+		margin-top: 189px;
+    }
+	.box4 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 332px;
+		margin-top: 189px;
+    }
+	.box5 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;
+	position: flex;
+    padding: 0;
+	float: center;
+ 
+    text-align: center;
+    align-content: center;
+	    margin-left: 240px;
+		margin-top: 70px;
+    }
+	
+	  .box6 {
+    color: white;
+    font-size: 2vw;
+    padding: 0;
+	position:absolute;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 180px;
+		margin-top: 247px;
+    } 
+	.box7 {
+    color: white;
+    font-size: 2vw;
+    padding: 0;
+	position:absolute;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 230px;
+		margin-top: 295px;
+    }
+	
+	</style>
+	  
+	  
+	  
+	  
+	  
+	  <style>
+	  .second {
+	  
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  }
+	  
+	  .second {
+      display: grid;
+ 
+	  grid-template-columns: repeat(auto-fit, 100px);
+   
+      grid-gap: 5px;
+      }
+	  
+	 
+	.box8 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;
+	position: flex;
+    padding: 0;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 28px;
+		margin-top: 429px;
+    }
+	.box9 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 180px;
+		margin-top: 439px;
+    }
+	.box10 {
+    color: white;
+    font-size: 2vw;
+
+	position: absolute;
+    padding: 0;
+	float: center;
+   
+    text-align: center;
+    align-content: center;
+	    margin-left: 40px;
+		margin-top: 472px;
+    }
+	.box11 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;
+	position: flex;
+    padding: 0;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 188px;
+		margin-top: 481px;
+    }
+	.box12 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;
+	position: flex;
+    padding: 0;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 285px;
+		margin-top: 481px;
+    }
+	.box13 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 25px;
+		margin-top: 525px;
+    }
+	.box14 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;
+	position: flex;
+    padding: 0;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 25px;
+		margin-top: 564px;
+    }
+	.box15 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;
+	position: flex;
+    padding: 0;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 182px;
+		margin-top: 564px;
+    }
+	.box16 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 25px;
+		margin-top: 604px;
+    }
+	.box17 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 182px;
+		margin-top: 604px;
+    }
+	.box18 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 35px;
+		margin-top: 650px;
+    }
+	.box19 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+
+    text-align: center;
+    align-content: center;
+	    margin-left: 170px;
+		margin-top: 666px;
+    }
+	.box20 {
+    color: white;
+    font-size: 2vw;
+	position:absolute;;
+	position: flex;
+    padding: 0;
+	float: center;
+  
+    text-align: center;
+    align-content: center;
+	    margin-left: 410px;
+		margin-top: 652px;
+    }
+	
+	</style>
+	
+	<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
